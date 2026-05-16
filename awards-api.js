@@ -2,8 +2,8 @@
 class AwardsAPI {
     constructor() {
         this.config = window.GITHUB_CONFIG || {
-            owner: 'your-github-username',
-            repo: 'your-repo-name',
+            owner: 'BangAnA',
+            repo: 'BangAnA.github.io',
             apiUrl: 'https://api.github.com/repos',
             labels: { award: 'award' }
         };
