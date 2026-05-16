@@ -41,8 +41,8 @@ class PersonalAPI {
             return window.isGitHubConfigured();
         }
         // 否则使用本地配置检查
-        return this.config.owner !== 'your-github-username' &&
-               this.config.repo !== 'your-repo-name';
+        return this.config.owner !== 'BangAnA' &&
+               this.config.repo !== 'BangAnA.github.io';
     }
 
     // 加载个人简介数据
