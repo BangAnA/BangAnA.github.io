@@ -2,8 +2,8 @@
 class PublicationsAPI {
     constructor() {
         this.config = window.GITHUB_CONFIG || {
-            owner: 'your-github-username',
-            repo: 'your-repo-name',
+            owner: 'BangAnA',
+            repo: 'BangAnA.github.io',
             apiUrl: 'https://api.github.com/repos',
             labels: { publication: 'publication' }
         };
@@ -41,8 +41,8 @@ class PublicationsAPI {
             return window.isGitHubConfigured();
         }
         // 否则使用本地配置检查
-        return this.config.owner !== 'your-github-username' &&
-               this.config.repo !== 'your-repo-name';
+        return this.config.owner !== 'BangAnA' &&
+               this.config.repo !== 'BangAnA.github.io';
     }
 
     // 加载论文数据
