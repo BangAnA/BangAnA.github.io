@@ -88,7 +88,7 @@ window.SITE_CONTENT = {
       },
       {
         date: "2023.06",
-        en: "🎉🎉I was awarded the title of Outstanding Graduate at the provincial level.",
+        en: "🎉🎉I was awarded the title of Outstanding Graduate at the provincial level!",
         zh: "🎉🎉我获得了省优秀毕业生荣誉称号。",
       },
     ],
@@ -127,8 +127,8 @@ window.SITE_CONTENT = {
   publications: {
     title: { en: "Selected Publications", zh: "代表性论文" },
     note: {
-      en: "* Equal contribution. Click the links to view the paper, code, or project page.",
-      zh: "* 表示共同贡献。点击链接可查看论文、代码或项目主页。",
+      en: "# co-first author; * corresponding author",
+      zh: "# 共同第一作者； * 通讯作者",
     },
     items: [
       {
