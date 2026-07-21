@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal academic homepage — research, publications, projects, and openings."
+    />
+    <meta name="theme-color" content="#17324d" />
+    <title>Your Name · Homepage</title>
+    <link rel="icon" href="assets/avatar.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="site-brand" href="#home" aria-label="Back to home">
+          <span class="brand-mark" aria-hidden="true">YN</span>
+          <span id="brand-name">Your Name</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open navigation"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation"></nav>
+
+        <button class="language-toggle" id="language-toggle" type="button">
+          <span class="language-icon" aria-hidden="true">文</span>
+          <span id="language-label">中文</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="page-shell" id="home">
+      <aside class="profile-sidebar" id="profile-sidebar" aria-label="Profile"></aside>
+      <main class="main-content" id="main-content"></main>
+    </div>
+
+    <footer class="site-footer" id="site-footer"></footer>
+
+    <noscript>
+      <div class="noscript-message">
+        This website needs JavaScript to display its bilingual content.
+      </div>
+    </noscript>
+
+    <script src="assets/content.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
