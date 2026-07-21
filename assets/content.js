@@ -88,7 +88,7 @@ window.SITE_CONTENT = {
       },
       {
         date: "2023.06",
-        en: "🎉🎉I was awarded the title of Outstanding Graduate at the provincial level!",
+        en: "🎉🎉I was awarded the title of Outstanding Graduate of the Province!",
         zh: "🎉🎉我获得了省优秀毕业生荣誉称号。",
       },
     ],
@@ -99,26 +99,26 @@ window.SITE_CONTENT = {
     items: [
       {
         number: "01",
-        title: { en: "Visual Understanding", zh: "视觉理解" },
+        title: { en: "Image Generation", zh: "图片生成" },
         description: {
-          en: "Learning robust visual representations for recognition, detection, and reasoning in open environments.",
-          zh: "学习稳健的视觉表征，用于开放环境中的识别、检测与推理。",
+          en: "Learn the data distribution of real images, and generate brand-new, high-fidelity visual content based on conditions such as text, contours, and reference images.",
+          zh: "学习真实图像的数据分布，依据文本、轮廓、参考图像等条件生成全新、高保真的视觉内容。",
         },
       },
       {
         number: "02",
-        title: { en: "Multimodal Learning", zh: "多模态学习" },
+        title: { en: "Defect Detection", zh: "缺陷检测" },
         description: {
-          en: "Connecting vision, language, and structured knowledge to build more capable intelligent systems.",
-          zh: "连接视觉、语言与结构化知识，构建能力更全面的智能系统。",
+          en: "Identify various abnormal defects on the surface of industrial products, and achieve defect location and classification.",
+          zh: "识别工业产品表面各类异常瑕疵，实现缺陷定位、分类与量化评估。",
         },
       },
       {
         number: "03",
-        title: { en: "Reliable AI", zh: "可靠人工智能" },
+        title: { en: "Industrial Anomaly Detection", zh: "工业异常检测" },
         description: {
-          en: "Improving the robustness, transparency, and real-world reliability of machine learning models.",
-          zh: "提升机器学习模型的鲁棒性、透明度与现实场景可靠性。",
+          en: "By using available normal samples to model the normal distribution of product characteristic features, and identifying and locating various unknown and rare defects on the production workpieces.",
+          zh: "依靠有限甚至仅有的正常样本建模产品常态特征分布，识别、定位生产工件上未知、少见的各类缺陷。",
         },
       },
     ],
@@ -156,7 +156,7 @@ window.SITE_CONTENT = {
         badge: { en: "Journal 2026", zh: "期刊论文 2026" },
         title: "MulPViT-SimAM: An Electronic Substrate Defect Detection Framework for Addressing Class Imbalance Problems",
         authors: "Yuting Wang#, Liming Sun#, <strong>Bang An</strong>, Ruiyun Yu",
-        venue: "International Journal of Example Research",
+        venue: "Machines",
         description: {
           en: "Briefly explain why this work matters and what makes it different.",
           zh: "简要说明这项工作的重要性及其创新之处。",
@@ -168,6 +168,7 @@ window.SITE_CONTENT = {
         links: [
           { label: "Paper", url: "#" },
           { label: "Code", url: "#" },
+          { label: "Project", url: "#" },
         ],
       },
       {
