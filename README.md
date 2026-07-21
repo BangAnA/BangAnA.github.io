@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # GitHub Pages 双语个人主页
 
 这是一个可直接部署到 GitHub Pages 的纯静态个人主页。它参考了学术主页常见的“个人信息侧栏 + 内容长页 + 锚点导航”结构，并加入：
@@ -311,6 +310,3 @@ git push
 ### 想绑定自己的域名
 
 在仓库 `Settings` → `Pages` → `Custom domain` 中填写域名，并按照 GitHub 提示配置 DNS。也可以在仓库根目录添加名为 `CNAME` 的文件，文件内容只写你的域名。
-=======
-# BangAnA.github.io
->>>>>>> 35a7db6bdb9ce82ee7c5cabb32e09ad558efa90a
