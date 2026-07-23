@@ -78,7 +78,7 @@ window.SITE_CONTENT = {
     items: [
       {
         date: "2026.04",
-        en: "🎉🎉Our paper addressed defect detection is accepted by ICME 2026!",
+        en: "🎉🎉Our paper addressed defect detection is accepted by Machines!",
         zh: "🎉🎉一篇缺陷检测的论文被Machines录用。",
       },
       {
@@ -220,8 +220,14 @@ window.SITE_CONTENT = {
     title: { en: "Experience & Education", zh: "经历与教育" },
     items: [
       {
-        period: "2023 — Present",
+        period: "2024 — Present",
         title: { en: "Ph.D. in Software Engineering", zh: "软件工程博士" },
+        place: { en: "Northeastern University · Shenyang", zh: "东北大学 · 沈阳" },
+        detail: { en: "Advisor: Prof. Ruiyun Yu", zh: "导师：于瑞云教授" },
+      },
+      {
+        period: "2023 — 2024",
+        title: { en: "M.Eng. in Software Engineering", zh: "软件工程硕士" },
         place: { en: "Northeastern University · Shenyang", zh: "东北大学 · 沈阳" },
         detail: { en: "Advisor: Prof. Ruiyun Yu", zh: "导师：于瑞云教授" },
       },
