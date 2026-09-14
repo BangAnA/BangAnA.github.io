@@ -136,7 +136,7 @@ window.SITE_CONTENT = {
         badge: { en: "Journal 2026", zh: "期刊论文 2026" },
         title: "IFCN: Interactive Fore-Background Cognition Network for Precision Manufacturing Cross-Domain Few-Shot Defect Segmentation",
         authors: "Haoyuan Li, Jianing Duan, <strong>Bang An</strong>, Chunyi Bai, Bingyang Guo, Ruiyun Yu",
-        venue: "Machines",
+        venue: "IEEE Transactions on Circuits and Systems for Video Technology",
         description: {
           en: "Briefly explain why this work matters and what makes it different.",
           zh: "简要说明这项工作的重要性及其创新之处。",
