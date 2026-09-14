@@ -133,13 +133,13 @@ window.SITE_CONTENT = {
     items: [
       {
         year: "2026",
-        badge: { en: "Conference 2026", zh: "国际会议 2026" },
-        title: "Your Paper Title: A Clear and Informative Description of the Work",
-        authors: "<strong>Your Name</strong>, Coauthor One, Coauthor Two",
-        venue: "Conference on Artificial Intelligence (Conference)",
+        badge: { en: "Journal 2026", zh: "期刊论文 2026" },
+        title: "IFCN: Interactive Fore-Background Cognition Network for Precision Manufacturing Cross-Domain Few-Shot Defect Segmentation",
+        authors: "Haoyuan Li, Jianing Duan, <strong>Bang An</strong>, Chunyi Bai, Bingyang Guo, Ruiyun Yu",
+        venue: "Machines",
         description: {
-          en: "A one-sentence summary of the core problem, method, and result.",
-          zh: "用一句话概括论文研究问题、核心方法与主要结果。",
+          en: "Briefly explain why this work matters and what makes it different.",
+          zh: "简要说明这项工作的重要性及其创新之处。",
         },
         image: {
           src: "",
@@ -147,7 +147,7 @@ window.SITE_CONTENT = {
         },
         links: [
           { label: "Paper", url: "#" },
-          { label: "Code", url: "#" },
+          { label: "Code", url: "https://github.com/090297-L/IFCN-and-PM2D-CDFSS/tree/main" },
           { label: "Project", url: "#" },
         ],
       },
