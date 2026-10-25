@@ -76,6 +76,16 @@ window.SITE_CONTENT = {
   news: {
     title: { en: "News", zh: "最新动态" },
     items: [
+       {
+        date: "2026.10",
+        en: "🎉🎉Our project has won the first prize in the National Competition for Open Innovation of Operating Systems for Chinese Graduate Students!",
+        zh: "🎉🎉一个工业多端协同的项目被中国研究生操作系统开源创新大赛评为全国一等奖。",
+      },
+        {
+        date: "2026.09",
+        en: "🎉🎉Our paper addressed defect detection is accepted by TCSVT!",
+        zh: "🎉🎉一篇缺陷检测的论文被TCSVT录用。",
+      },
       {
         date: "2026.04",
         en: "🎉🎉Our paper addressed defect detection is accepted by Machines!",
