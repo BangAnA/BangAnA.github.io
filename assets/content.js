@@ -172,11 +172,11 @@ window.SITE_CONTENT = {
           zh: "简要说明这项工作的重要性及其创新之处。",
         },
         image: {
-          src: "",
+          src: "https://mdpi-res.com/machines/machines-14-00456/article_deploy/html/images/machines-14-00456-g001.png",
           alt: { en: "Overview of the 2025 publication", zh: "2025 年论文示意图" },
         },
         links: [
-          { label: "Paper", url: "#" },
+          { label: "Paper", url: "https://www.mdpi.com/3848218" },
           { label: "Code", url: "#" },
           { label: "Project", url: "#" },
         ],
