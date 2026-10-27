@@ -152,13 +152,12 @@ window.SITE_CONTENT = {
           zh: "简要说明这项工作的重要性及其创新之处。",
         },
         image: {
-          src: "",
+          src: "https://github.com/090297-L/IFCN-and-PM2D-CDFSS/blob/main/images/IFCN.png",
           alt: { en: "Overview of the 2026 publication", zh: "2026 年论文示意图" },
         },
         links: [
-          { label: "Paper", url: "#" },
-          { label: "Code", url: "https://github.com/090297-L/IFCN-and-PM2D-CDFSS/tree/main" },
-          { label: "Project", url: "#" },
+          { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/11717598" },
+          { label: "Code", url: "https://github.com/090297-L/IFCN-and-PM2D-CDFSS" }
         ],
       },
       {
@@ -205,10 +204,10 @@ window.SITE_CONTENT = {
     items: [
       {
         status: { en: "Featured project", zh: "重点项目" },
-        title: { en: "Open Research Toolkit", zh: "开放研究工具箱" },
+        title: { en: "Edge-side AI Intelligent Quality Inspection System for Industrial Environments and OpenHarmony Multi-Device Collaboration Platform", zh: "面向工业现场的端侧AI智能质检系统与OpenHarmony多端协同平台" },
         description: {
-          en: "A reproducible toolkit for training, evaluating, and visualizing modern machine learning models.",
-          zh: "一个用于训练、评估和可视化现代机器学习模型的可复现工具箱。",
+          en: "The project deeply integrates OpenHarmony's distributed capabilities with industrial multimodal agents, achieving innovative breakthroughs in concurrent scheduling across multiple industrial endpoints and ensuring cross-device data consistency, thereby providing an open-source solution for the digital transformation of smart manufacturing production lines.",
+          zh: "项目将 OpenHarmony 分布式能力与工业多模态智能体深度融合，在工业场景多端并发调度、跨终端数据一致性保障方面形成创新突破，为智能制造产线数字化转型提供开源方案。",
         },
         technologies: ["Python", "PyTorch", "Web Demo"],
         link: "https://github.com/yourusername",
