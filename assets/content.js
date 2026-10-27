@@ -253,8 +253,8 @@ window.SITE_CONTENT = {
     title: { en: "Academic Service", zh: "学术服务" },
     items: [
       {
-        en: "Reviewer: Pattern Recognition, IEEE Transactions on Industrial Informatics(TII), and IEEE Transactions on Systems, Man, and Cybernetics: Systems(TSMC)",
-        zh: "审稿人：PR、TII、TSMC",
+        en: "Reviewer: Pattern Recognition, IEEE Transactions on Industrial Informatics(TII), IEEE Transactions on Systems, Man, and Cybernetics: Systems(TSMC), and IEEE International Conference on Acoustics, Speech, and Signal Processing",
+        zh: "审稿人：PR、TII、TSMC、ICASSP",
       },
       {
         en: "Teaching assistant: Advanced Artificial Intelligence",
