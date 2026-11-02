@@ -226,10 +226,10 @@ window.SITE_CONTENT = {
   },
 
   experience: {
-    title: { en: "Experience & Education", zh: "经历与教育" },
+    title: { en: "Education", zh: "教育经历" },
     items: [
       {
-        period: "2024 — Present",
+        period: { en: "2024 — Present", zh: "2024 — 至今" },
         title: { en: "Ph.D. in Software Engineering", zh: "软件工程博士" },
         place: { en: "Northeastern University · Shenyang", zh: "东北大学 · 沈阳" },
         detail: { en: "Advisor: Prof. Ruiyun Yu", zh: "导师：于瑞云教授" },

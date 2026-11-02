@@ -19,7 +19,7 @@
     research: { en: "Research", zh: "研究" },
     publications: { en: "Publications", zh: "论文" },
     projects: { en: "Projects", zh: "项目" },
-    experience: { en: "Experience", zh: "经历" },
+    experience: { en: "Education", zh: "教育" },
     service: { en: "Service", zh: "服务" },
   };
 
@@ -86,7 +86,8 @@
             )
             .join("")}
         </div>
-      </div>`;
+      </div>
+      ${renderExperience()}`;
   }
 
   function renderOpenings() {
@@ -246,26 +247,25 @@
       </section>`;
   }
 
-  function renderExperience(index) {
+  function renderExperience() {
     return `
-      <section class="content-section" id="experience" aria-labelledby="experience-title">
-        ${sectionHeading("experience", content.experience.title, index)}
-        <div class="timeline">
+      <section class="profile-education" id="experience" aria-labelledby="experience-title">
+        <h2 class="profile-section-title" id="experience-title">
+          ${icons.scholar}<span>${t(content.experience.title)}</span>
+        </h2>
+        <ol class="education-list">
           ${content.experience.items
             .map(
               (item) => `
-                <article class="timeline-item">
-                  <time>${item.period}</time>
-                  <div class="timeline-marker"></div>
-                  <div>
-                    <h3>${t(item.title)}</h3>
-                    <p class="timeline-place">${t(item.place)}</p>
-                    <p>${t(item.detail)}</p>
-                  </div>
-                </article>`,
+                <li class="education-item">
+                  <p class="education-period">${t(item.period)}</p>
+                  <h3>${t(item.title)}</h3>
+                  <p class="education-place">${t(item.place)}</p>
+                  <p class="education-detail">${t(item.detail)}</p>
+                </li>`,
             )
             .join("")}
-        </div>
+        </ol>
       </section>`;
   }
 
@@ -287,8 +287,7 @@
       renderResearch(3),
       renderPublications(4),
       renderProjects(5),
-      renderExperience(6),
-      renderService(7),
+      renderService(6),
     ].join("");
   }
 
